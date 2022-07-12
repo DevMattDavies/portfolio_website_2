@@ -1,5 +1,5 @@
 import "./App.css";
-import Splash from "../Components/splash/splash";
+import Splash from "../Components/Splash/Splash";
 
 function App() {
   return (

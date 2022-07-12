@@ -1,16 +1,19 @@
-import "./splash.modules.css";
-import ProfileImage from "../profile_image/profile_image";
+import "./Splash.modules.css";
+import SplashLine from '../../assets/splash-line.png'
+import SplashMenu from "../Splash-Menu/Splash-Menu";
+import SplashIcons from "../Splash-Icons/Splash-Icons";
 
 function Splash() {
   return (
-    <div className="splash-page">
-      <div className="title">
-        <h1>Hi I'm Matt</h1>
+    <div className="splash-container">
+      <div className="icons-container">
+        <SplashIcons />
       </div>
-      <div className="image">
-        <ProfileImage />
+    <img src={SplashLine}></img>
+        <div className="menu-container">
+          <SplashMenu />
+        </div>
       </div>
-    </div>
   );
 }
 

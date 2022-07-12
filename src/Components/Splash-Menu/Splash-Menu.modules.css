@@ -1,0 +1,19 @@
+.splash-menu {
+  font-family: var(--font-primary);
+  display: flex;
+  flex-direction: column;
+}
+
+.splash-menu h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  -webkit-text-stroke:2px var(--secondary);
+  -webkit-text-fill-color:transparent;
+  text-align: right;
+}
+
+.splash-menu h1:hover {
+  color: var(--secondary);
+  -webkit-text-fill-color:var(--secondary);
+  cursor: pointer;
+}

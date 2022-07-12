@@ -1,0 +1,19 @@
+.splash-icons-container {
+  color: var(--secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: sticky;
+}
+
+.vertical-line {
+  border-left: 1px solid var(--secondary);
+  flex-grow: 1;
+  width: 1px;
+}
+
+.splash-icon {
+  margin: 10px 0;
+}

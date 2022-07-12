@@ -1,5 +1,39 @@
 :root {
   --primary: #13182D;
+  --secondary: #69b3ac;
+  --highlight:  #d2d6f3;
+  --font-primary: "Futura PT";
+  --font-secondary: "Operator Mono"
+}
+
+@font-face {
+  font-family: "Futura PT";
+  src: local("FuturaPT-Light.woff2") format("woff2"),
+    local("FuturaPT-Light.woff") format("woff"),
+    local("FuturaPT-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Operator Mono';
+  src: local('OperatorMono-Book.woff2') format('woff2'),
+      local('OperatorMono-Book.woff') format('woff'),
+      local('OperatorMono-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Operator Mono';
+  src: local('OperatorMono-BookItalic.woff2') format('woff2'),
+      local('OperatorMono-BookItalic.woff') format('woff'),
+      local('OperatorMono-BookItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
 }
 
 html {
