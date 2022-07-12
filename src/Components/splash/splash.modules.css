@@ -1,0 +1,12 @@
+.splash-page {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

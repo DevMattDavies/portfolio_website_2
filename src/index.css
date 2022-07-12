@@ -1,0 +1,17 @@
+:root {
+  --primary: #13182D;
+}
+
+html {
+  font-size: calc(60% + 0.8vmin);
+}
+
+* {
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--primary)
+}
