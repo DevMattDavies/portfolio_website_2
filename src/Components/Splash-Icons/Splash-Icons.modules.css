@@ -5,7 +5,8 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  position: sticky;
+  position:fixed;
+  width: 10vw;
 }
 
 .vertical-line {
@@ -16,4 +17,8 @@
 
 .splash-icon {
   margin: 10px 0;
+}
+
+.splash-icon:hover {
+  cursor: pointer;
 }
