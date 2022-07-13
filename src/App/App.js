@@ -2,6 +2,7 @@ import "./App.css";
 import SplashIcons from "../Components/Splash-Icons/Splash-Icons";
 import Splash from "../Components/Splash/Splash";
 import About from "../Components/About/About";
+import TechStack from "../Components/TechStack/TechStack";
 
 function App() {
   return (
@@ -11,7 +12,12 @@ function App() {
       </div>
       <div className="main">
         <Splash />
-        <About />
+        <div className="section-container">
+          <About />
+        </div>
+        <div className="section-container">
+          <TechStack />
+        </div>
       </div>
     </div>
   );

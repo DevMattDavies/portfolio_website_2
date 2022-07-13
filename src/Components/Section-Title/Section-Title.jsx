@@ -1,4 +1,4 @@
-import './Section-Title.modules.css'
+import './Section-Title.css'
 
 function SectionTitle({title}) {
   return <h1 className='section-title'>{title}</h1>

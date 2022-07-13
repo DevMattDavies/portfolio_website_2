@@ -21,4 +21,5 @@
 
 .splash-icon:hover {
   cursor: pointer;
+  color: var(--highlight)
 }

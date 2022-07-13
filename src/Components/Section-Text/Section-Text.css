@@ -2,22 +2,21 @@
   font-family: var(--font-primary);
   font-size: var(--font-text-size);
   font-weight: var(--font-text-weight);
-  color: var(--secondary);
+  color: var(--highlight);
   text-align: justify;
-  margin-top: 2rem;
   max-width: 90%;
   -webkit-box-shadow: 10px 10px var(--highlight);
   -moz-box-shadow: 10px 10px var(--highlight);
-  box-shadow: 10px 10px var(--highlight);
+  box-shadow: 10px 10px var(--box-shadow-secondary);
   border: 1px solid var(--secondary);
   padding: 0.5rem 1rem;
-  /* margin-bottom: 200px; */
 }
 
 
-@media (min-width: 30em) {
+@media (min-width: 30rem) {
   .section-text {
     margin-right: 0;
     width: 100%;
+    height: max-content;
   }
 }

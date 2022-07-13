@@ -1,0 +1,16 @@
+
+.about-section-separator {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+  width: 100%;
+}
+
+
+@media screen and (min-width: 60rem) {
+  .about-section-separator {
+    flex-direction: row;
+    gap: 2em;
+  }
+
+}

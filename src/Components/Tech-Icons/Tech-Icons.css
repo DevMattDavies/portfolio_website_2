@@ -1,0 +1,28 @@
+.tech-icon-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.icon-row {
+  display: flex;
+}
+
+.tech-icon {
+  height: 50px;
+  filter: invert(71%) sepia(30%) saturate(475%) hue-rotate(125deg) brightness(88%) contrast(84%);
+  margin: 1.5rem;
+}
+
+#express {
+  width: 70px;
+  height: auto;
+}
+
+.icon-container {
+  margin-top: -10px;
+  display: flex;
+}
+

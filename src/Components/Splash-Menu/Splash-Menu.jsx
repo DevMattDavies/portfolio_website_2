@@ -1,4 +1,4 @@
-import "./Splash-Menu.modules.css";
+import "./Splash-Menu.css";
 
 function SplashMenu() {
   return (

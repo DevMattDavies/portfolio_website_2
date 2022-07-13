@@ -1,8 +1,23 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+
 .main {
   width: 90vw;
-  float: right;
 }
 .side-icons {
   width: 10vw;
-  float: left;
+}
+
+.section-container {
+  padding-top: 20rem;
+}
+
+@media (min-width: 60rem) {
+  .section-container {
+    padding-right: 50px;
+    max-width: 70rem;
+    margin: 0 auto;
+  }
 }

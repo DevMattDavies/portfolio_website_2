@@ -1,4 +1,4 @@
-import './Section-Text.modules.css'
+import './Section-Text.css'
 
 function SectionText({text}) {
   return <p className='section-text'>{text}</p>

@@ -10,17 +10,16 @@
   margin-top: 3rem;
 }
 
-@media (min-width: 50em) {
+@media (min-width: 30rem) {
   .profile-img {
     border-radius: 5px;
     filter: opacity(0.8) drop-shadow(0 0 0 var(--secondary));
-    width: 20rem;
+    /* width: 20rem; */
   }
   
   .image-container {
     display: flex;
     justify-content: center;
-    margin-top: 5rem;
     width: 100%;
     height: max-content;
   }

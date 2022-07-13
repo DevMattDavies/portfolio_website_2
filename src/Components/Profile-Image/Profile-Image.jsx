@@ -1,4 +1,4 @@
-import "./Profile-Image.modules.css";
+import "./Profile-Image.css";
 import ProfilePicture from "../../assets/me.jpeg";
 
 function ProfileImage() {
